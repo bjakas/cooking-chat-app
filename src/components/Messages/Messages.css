@@ -1,0 +1,78 @@
+.App-chat-page--messages-field {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 100vh;
+  width: auto;
+  background-image: url(../../images/pexels-antoni-shkraba-4397266.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.messages--list {
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  flex-grow: 1;
+  padding: 10px;
+  /*  we set overflow to add scroll only when needed - https://www.w3schools.com/css/css_overflow.asp */
+  overflow: auto;
+}
+
+.username {
+  padding: 0px 5px;
+  font-size: 16px;
+}
+
+.info--content > .avatar {
+  height: 40px;
+}
+
+.messages--message.currentMember {
+  text-align: end;
+}
+.currentMember .text {
+  color: #3b5757d2;
+}
+
+.messages--message {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.messages--message > .info--content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+  align-items: center;
+}
+.messages--message.currentMember > .info--content {
+  display: flex;
+  flex-direction: row;
+  text-align: end;
+  justify-content: right;
+  align-items: center;
+}
+
+.message--content {
+  display: inline-block;
+  padding: 0px 0px;
+  color: #f18c63;
+  font-size: 16px;
+}
+
+.text {
+  padding: 0px 45px 10px 45px;
+  margin: 0;
+}
+
+.timestamp {
+  display: inline-block;
+  background-color: rgba(240, 226, 200, 0.479);
+  color: black;
+  font-size: 12px;
+  padding: 5px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,102 @@
+.App-login-page {
+  background-color: #f7f4f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url(../../images/pexels-cottonbro-3298637.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% 30%;
+}
+
+.card {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  padding: 20px 20px;
+  background-color: #3b5757d2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 360px;
+}
+
+.App-login-page--h1 {
+  font-size: 28px;
+  padding: 20px 30px;
+  margin-top: 10px;
+  color: white;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.label--name {
+  display: block;
+}
+
+.input--name {
+  padding: 5px;
+  border: 3px solid white;
+  width: 60%;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.label--name,
+.avatar--text,
+span {
+  font-size: 18px;
+}
+.avatar--choosen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.img--avatar-choosen {
+  height: 75px;
+}
+
+.button--login {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 16px;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border: 3px solid #f18c63;
+  cursor: pointer;
+  width: 150px;
+  transition: all 0.4s ease-in-out;
+}
+
+.button--login:hover {
+  background-color: transparent;
+  color: #f18c63;
+  border: 3px solid white;
+}
+
+@media (min-width: 40em) {
+  .label--name,
+  .avatar--text,
+  span {
+    font-size: 20px;
+  }
+
+  .App-login-page--h1 {
+    font-size: 40px;
+  }
+  .card {
+    max-width: 700px;
+  }
+  .input--name {
+    width: 30%;
+  }
+  .button--login {
+    font-size: 18px;
+  }
+}

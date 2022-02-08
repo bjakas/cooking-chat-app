@@ -1,0 +1,42 @@
+.App-chat-page--header {
+  display: flex;
+  height: auto;
+  align-items: center;
+  background-color: #3b5757d2;
+  text-align: center;
+  color: white;
+  padding: 0px 10px;
+}
+.cooking-icon {
+  width: 24px;
+}
+
+.App-chat-page--header_h1 {
+  margin-left: 15px;
+  margin-right: auto;
+  font-size: 24px;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.App-chat-page--header_h2 {
+  margin-right: 10px;
+  font-size: 16px;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+@media (min-width: 40em) {
+  .App-chat-page--header {
+    padding: 0px 30px;
+  }
+  .cooking-icon {
+    width: 38px;
+  }
+  .App-chat-page--header_h1 {
+    margin-left: 25px;
+    font-size: 40px;
+  }
+
+  .App-chat-page--header_h2 {
+    font-size: 24px;
+  }
+}
