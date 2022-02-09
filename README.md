@@ -31,5 +31,7 @@ Final exam for Algebra course for Frontend developer - React Chat App
 ## Images of Chat App
 
 ![](src/images/LoginPage.png)
+
 ![](src/images/ChatPage.png)
+
 ![](src/images/ChatPage2.png)
