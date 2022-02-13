@@ -31,6 +31,7 @@
 
 .messages--message.currentMember {
   text-align: end;
+  align-items: flex-end;
 }
 .currentMember .text {
   color: #174943;
@@ -40,6 +41,7 @@
   display: flex;
   flex-direction: column;
   font-size: 14px;
+  align-items: flex-start;
 }
 
 .messages--message > .info--content {
